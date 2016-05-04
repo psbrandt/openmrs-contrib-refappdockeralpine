@@ -1,13 +1,13 @@
-esaude-platform-tomcat:
+openmrs-refapp-tomcat:
   image: psbrandt-docker-openmrs-refapp-alpine.bintray.io/tomcat:2.3.1
   ports:
     - "8080:8080"
     - "5000:5000"
-  container_name: esaude-platform-tomcat
+  container_name: openmrs-refapp-tomcat
   links:
-    - esaude-platform-mysql
-esaude-platform-mysql:
+    - openmrs-refapp-mysql
+openmrs-refapp-mysql:
   image: psbrandt-docker-openmrs-refapp-alpine.bintray.io/mysql:2.3.1
   ports:
     - "3306:3306"
-  container_name: esaude-platform-mysql
+  container_name: openmrs-refapp-mysql
