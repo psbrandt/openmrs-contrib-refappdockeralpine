@@ -1,5 +1,5 @@
 #!/bin/bash
-set -o xtrace
+set -ex
 
 # Log in to the Bintray Docker registry
 docker login -u $BINTRAY_USER -p $BINTRAY_API_KEY -e $BINTRAY_EMAIL psbrandt-docker-openmrs-refapp-alpine.bintray.io
