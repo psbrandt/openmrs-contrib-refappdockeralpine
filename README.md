@@ -2,6 +2,10 @@
 
 # OpenMRS Reference Application Docker (Alpine Linux)
 
+[![Build Status](https://travis-ci.org/psbrandt/openmrs-contrib-refappdockeralpine.svg?branch=master)](https://travis-ci.org/psbrandt/openmrs-contrib-refappdockeralpine)
+[![MySQL Image](https://omrs-shields.psbrandt.io/custom/mysql/150_MB_%20%7C%207_Layers/blue?style=flat)](https://bintray.com/psbrandt/openmrs-refapp-alpine/mysql/view)
+[![Tomcat Image](https://omrs-shields.psbrandt.io/custom/tomcat/266_MB_%20%7C%208_Layers/blue?style=flat)](https://bintray.com/psbrandt/openmrs-refapp-alpine/tomcat/view)
+
 > Docker containers for [OpenMRS](http://openmrs.org) Reference Application
 
 This repository contains the necessary infrastructure code and related resources
